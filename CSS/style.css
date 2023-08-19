@@ -16,11 +16,6 @@ body {
   }
 }
 
-@media (max-width: 900px) {
-  .navbar-nav .nav-link {
-    color: black;
-  }
-}
 h1 {
   font-size: 96px;
 }
