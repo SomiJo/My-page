@@ -8,6 +8,13 @@ body {
   margin: 0;
   display: block;
 }
+@media (max-width) {
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 20px;
+  }
+}
 
 h1 {
   font-size: 96px;
