@@ -16,6 +16,11 @@ body {
   }
 }
 
+@media (max-width: 900px) {
+  .navbar-nav .nav-link {
+    color: var(--primary-color);
+  }
+}
 h1 {
   font-size: 96px;
 }
