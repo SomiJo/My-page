@@ -8,11 +8,18 @@ body {
   margin: 0;
   display: block;
 }
-@media (max-width) {
+@media (max-width: 900px) {
   .project-link {
     display: block;
     text-align: center;
     margin: 20px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 36px;
   }
 }
 
@@ -77,9 +84,4 @@ a {
 .navbar {
   padding: 0;
   height: 60px;
-}
-
-.navbar-nav .nav-link {
-  font-size: 16px;
-  margin-right: 10px;
 }
