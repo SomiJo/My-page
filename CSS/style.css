@@ -8,11 +8,11 @@ body {
   margin: 0;
   display: block;
 }
-@media (max-width: 900px) {
+@media (max-width: 576px) {
   .project-link {
     display: block;
     text-align: center;
-    margin: 20px;
+    margin: 0 20px;
   }
   h1 {
     font-size: 48px;
@@ -20,6 +20,10 @@ body {
   }
   h2 {
     font-size: 36px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
   }
 }
 
